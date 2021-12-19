@@ -1,8 +1,7 @@
 from mwrogue.esports_client import EsportsClient
-from mwrogue import wiki_time, wiki_time_parser
 import requests
-from datetime import datetime, timezone
-from pytz import timezone, utc
+from datetime import datetime
+from pytz import timezone
 
 site = EsportsClient("lol")
 
